@@ -1,9 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title> Rajani </title>
+    </head>
+    <body>
+        <article>
+            <header> I'm header</header>
+            <section>
+                <article>
+                    <header>I'm inner header</header>
+                    <section>
+                        <form>
+                            First name: <input type="text"> <br><br>
+                            Last name: <input type="text"> <br><br>
+                           email id: <input type="text" name="mail" id="mail" value="enter email id here"><br><br>
+                            password: <input type="password" name="pwd" id="pwd" value="">
+                            <input type="submit" name="register" id="register" value="register here">
+                        </form>
+                    </section>
+                    <footer> Inner footer</footer>
+                </article>
+            </section>
+            <footer> I'm footer</footer>
+        </article>
+    </body>
+</html>
