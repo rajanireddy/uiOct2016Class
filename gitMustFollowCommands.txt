@@ -1,5 +1,15 @@
 1. git add <filename> 
-2. git status (to check the status of the local git repository)
+2. git status (to check the status of the local git reposito
 3. git commit -m "<comment for the changes>"
 4. git pull origin <branch name>
 5. git push origin <branch name>
+<article> 
+       <header> </header>
+       <section> 
+      </section>
+       <footer> </footer>
+1.
+article
+header
+section
+footer
