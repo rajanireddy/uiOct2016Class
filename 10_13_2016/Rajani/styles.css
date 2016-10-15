@@ -1,0 +1,18 @@
+form
+{
+  float:left;
+  width:2px;
+}
+/** form to clear the web page**/
+label
+{	float:left;
+    width:100px;
+    margin-bottom:15px;
+}
+input
+{   float:
+	width:100px;
+	margin-bottom:10px;
+
+}
+
