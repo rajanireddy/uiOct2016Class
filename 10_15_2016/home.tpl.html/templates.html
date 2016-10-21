@@ -12,123 +12,134 @@
 
     <!--this is used to write CSS style on the html file system-->
     <style>
-    #reset{
-       background-color : #f54d48;
+     #reset{
+           background-color : #f54d48;
        }
        #Submit{
-         background-color: #000;
+              background-color: #53a307;
          }
 
-     </style>
-    <!--script this is used to write javascript on the html file itself-->
-    <script>
+       </style>
+        <!--script this is used to write javascript on the html file itself-->
+        <script>
 
-    </script>
+        </script>
 
     <!--link this is used to link an external source-->
     <!--this is used to source only css files and images-->
-    <link rel="stylesheet" href="../style.css/style.css">
+        <link rel="stylesheet" href="../style.css/style.css">
 
-    <!--base this used to specify the base url of our web page-->
-    <!-- this is optional and to be written based on server configuration-->
-    <base href="/home" />
+        <!-- meta this is used to describe more data information which are not covered by the above five-->
+          <meta name="description" content="This is the offical Employee Form for applying form" />
+          <meta name="keywords" content ="Employee form,form,applicant"/>
+          <meta charset="UTF=8"/>
+    </head>
 
-    <!-- meta this is used to describe more data information which are not covered by the above five-->
-    <meta name="description" content="This is the offical Employee Form for applying form" />
-    <meta name="keywords" content ="Employee form,form,applicant"/>
-    <meta charset="UTF=8"/>
-</head>
+            <!--body of the web page-->
+               <!-- body is the rendering part of the html-->
+     <body>
+                 <!--main article for forms-->
 
-<!--body of the web page-->
-<!-- body is the rendering part of the html-->
-<body>
-<!--main article for forms-->
+          <article>
+           <!--page header-->
+               <header>
+                  <h1>EMPLOYEE FORM!</h1>
+               </header>
+                   <section>
+                       <article>
+                           <header>
+                               <nav>
+                                   <ul>
+                                        <li>Home</li>
+                                        <li>About Us</li>
+                                        <li>Contact Us</li>
+                                        <li>Testimony</li>
+                                   </ul>
+                               </nav>
+                               </header>
+                           </article>
+                   </section>
 
-<article>
+                <!--form name="New employee form"-->
+                <!--first Name-->
+                <section>
+                             <form name="Employee Form"/>
+                <!--first name-->
+                   <div class="container">
+                      <label for="First Name">Applicant's First Name:</label>
+                      <input type="text" id="First Name" name= "fname" placeholder="Enter your first name"/>
+                   </div>
+                   <br>
 
-    <!--page header-->
+                <!--last name-->
+                    <div class="container">
+                      <label for ="Last Name">Applicant's Last Name:</label>
+                      <input type="text" id="Last Name" name="lname" placeholder="Enter your last name"/>
+                    </div>
+                    <br>
 
-    <header>
-        <h1>EMPLOYEE FORM!</h1>
+                <!--Phone number-->
+                      <label for ="Phone number">Applicant's Phone number:</label>
+                      <input type="text" id="phone number" name="phone number" placeholder"enter your phone number"/>
+                    <br>
 
-    </header>
-    <!-- form for new employee form in company-->
-    <!--form name="New employee form"-->
-    <!--first Name-->
-    <section>
-        <form name="Employee Form"/>
+                 <!--check box-->
+                     <div class="container">
+                        <label for ="employer id"> senior citizen</label>
+                        <input type="checkbox" id="employer id" name="employer id" placeholder="enter your employee id"/>
+                     </div>
+                     <br>
 
-        <!--first name-->
-        <div class="container">
-        <label for="First Name">Applicant's First Name:</label>
-        <input type="text" id="First Name" name= "fname" placeholder="Enter your first name"/>
-            </div>
-        <br>
+                 <!-- radio button-->
+                 <!--gender-->
+                      <label for ="Gender"> Gender:</label>
+                      <div id="Gender">
+                      </div>
+                      <br>
 
-        <!--last name-->
-        <div class="container">
-        <label for ="Last Name">Applicant's Last Name:</label>
-        <input type="text" id="Last Name" name="lname" placeholder="Enter your last name"/>
-            </div>
-        <br>
+                 <!--Male-->
+                      <label for ="Male"> Male:</label>
+                      <input type="radio" id="Male" name="Gender" value="Male"/>
 
-        <!--Phone number-->
-        <label for ="Phone number">Applicant's Phone number:</label>
-        <input type="text" id="phone number" name="phone number" placeholder"enter your phone number"/>
-        <br>
+                      <br>
+                <!--female-->
 
-        <!--check box-->
-        <div class="container">
-        <label for ="employer id"> senior citizen</label>
-        <input type="checkbox" id="employer id" name="employer id" placeholder="enter your employee id"/>
-            </div>
-        <br>
+                     <label for ="Female">Female:</label>
+                     <input type ="radio" id="Female" name="Gender" value="Female"/>
 
-        <!-- radio button-->
-        <!--gender-->
-        <label for ="Gender"> Gender:</label>
-        <div id="Gender">
-            <br>
+                     <br>
 
-            <!--Male-->
-            <label for ="Male"> Male:</label>
-            <input type="radio" id="Male" name="Gender" value="Male"/>
+                 <!-- employee email password-->
 
-            <br>
+                    <!-- <label for="email id"> employer email id</label>
+                     <input type="email id" id="email id" name="email id" placeholder="email id" />
+                    <br>
 
-            <!--female-->
+                      <label for= "email id"> employer password id</label>
+                      <input type="password id" id="pwd id" name="pwd id" placeholder="pwd id" />
+                    <br>-->
 
-            <label for ="Female">Female:</label>
-            <input type ="radio" id="Female" name="Gender" value="Female"/>
+                   <!--submit button-->
+                       <button type="radio" id="Submit" class="btn"/>
+                           <span>submit</span>
+                       </button>
+                 <!--reset button-->
+                      <button type="reset" id="reset"/>
+                          <span>CANCEL</span>
+                       </button>
 
-            <br>
+               <!-- employee email password-->
 
-            <!-- employee email password-->
+                   </form>
+                 </section>
 
-            <label for="email id"> employer email id</label>
-            <input type="email id" id="email id" name="email id" placeholder="email id" />
-            <br>
+                      <footer>I am at bottom
 
-            <label for= "email id"> employer password id</label>
-            <input type="password id" id="pwd id" name="pwd id" placeholder="pwd id" />
-            <br>
+                      </footer>
 
-            <!--submit button-->
-            <button type="radio" id="Submit" class="btn"/>
-            <span>submit</span>
-            </button>
-            <!--reset button-->
-            <button type="reset" id="reset"/>
-            <span>CANCEL</span>
-            </button>
-
-            <!-- employee email password-->
-
-            </form>
 </article>
 </body>
 </html>
-
 
 
 
