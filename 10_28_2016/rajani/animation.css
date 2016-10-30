@@ -1,0 +1,60 @@
+#main-heading:hover{
+    /*transform 2D translate*/
+
+   /*-webkit-transform: translate(0,100px);*//*to transforms chorme and safari*//*
+   -moz-transform: translate(0,100px); *//*this is to transform mozila*//*
+   -o-transform: translate(0,100px); *//*this will transform opera*//*
+   -ms-transform: translate(0,100px); */ /*IE specific transform*//*
+   transform: translate(0,100px);*/ /*It will fallback*//*
+   */
+
+  /* -webkit-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   transform: rotate(90deg);*/
+
+    -webkit-transform: scale(4,4);
+    -moz-transform: scale(4,4);
+    -o-transform: scale(4,4);
+    -ms-transform: scale(4,4);
+    transform: scale(4,4);
+
+   /* -webkit-transform: skew(10deg,-40deg);
+    -moz-transform: skew(10deg,-40deg);
+    -o-transform: skew(10deg,-40deg);
+    -ms-transform: skew(10deg,-40deg);
+    transform: skew(10deg,-40deg);*/
+
+    /*3D transform translate*/
+
+   /* -webkit-transform: translate3d(0,20px,100px);
+    -moz-transform: translate3d(0,20px,100px);
+    -o-transform: translate3d(0,20px,100px);
+    -ms-transform: translate3d(0,20px,100px);
+    transform: translate3d(0,20px,100px); */
+
+   /* -webkit-transform: rotate3d(0,1,1,90deg);
+    -moz-transform: rotate3d(0,1,1,90deg);
+    -o-transform: rotate3d(0,1,1,90deg);
+    -ms-transform: rotate3d(0,1,1,90deg);
+     transform: rotate3d(0,1,1,90deg); */
+
+}
+
+@keyframes scrollContent{
+  0%{
+     left: 5%;
+  }
+  100%{
+     right: 200%;
+  }
+}
+
+.scroll-content{
+   -webkit-animation: scrollContent 20s infinite;
+   -moz-animation: scrollContent 20s infinite;
+   -o-animation: scrollContent 20s infinite;
+   -ms-animation: scrollContent 20s infinite;
+   animation: scrollContent 20s infinite;
+}

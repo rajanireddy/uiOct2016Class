@@ -1,0 +1,113 @@
+body{
+    /*background-color: #f67466;*/
+    background:url('pexels-photo.jpg');
+   /* background:url('happy-diwali-2013-hd-wallpaper-Copy.jpg');*/
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 1px;
+}
+
+form[name="Employee Form"]{
+    border: 2px solid #000;
+    width: 300px;
+    margin: 4px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#ebafc8;
+}
+
+#nav-heading > nav > ul li{
+      background-color: #63eb54;
+      padding: 15px;
+      margin: 46px;
+}
+
+#nav-heading > nav ul li:hover{
+    background-color: #fcd0b1;
+}
+
+#main-heading{
+    padding: 15px;
+    margin: 20px;
+    color: #000;
+    text-align: center;
+}
+
+#main-heading:hover{
+  color:#cb0f18;
+}
+
+.top{
+   text-align: center;
+   padding: 20px;
+   background: #f69bc1;
+   margin-left: 5px;
+   margin-top: -5px;
+}
+
+#bottom-nav > div > p{
+    padding: 4px;
+    margin: 15px;
+    display: inline;
+    background: rgb(43, 214, 42);
+    /*border: 3px solid #de3118;*/
+}
+
+#bottom-nav > div > p:hover{
+    background: #bda228;
+}
+
+.bottom{
+   background: #f69bc1;
+   padding: 20px;
+   margin:5px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+button[type="submit"]{
+    background-color: #f2b446;
+}
+
+button[type="submit"]:hover{
+     background-color: #3040bb;
+}
+
+button[type="reset"]{
+  background-color: #fd223b;
+}
+
+button[type="reset"]:hover{
+   background-color: #6ed31f;
+}
+
+.backArrow,.homeBtn,.forwardArrow{
+  background:url('img_navsprites.gif');
+  width: 44px;
+  height: 46px;
+}
+
+.backArrow{
+  background-position: -50px;
+  left:-15%;
+}
+
+.homeBtn{
+  background-position: 0px -3px;
+  left:-5%;
+}
+
+.forwardArrow{
+  background-position: 33px -3px;
+}
+
+
