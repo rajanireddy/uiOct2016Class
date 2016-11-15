@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+             <title>Table1.html</title>
+             <style>
+             
+             		
+         
+             	table,th,td{
+             		border: 3px solid black;
+             		border-collapse: collapse;
+             		width 50px;
+             	}
+             	th,tr,td{
+             		padding:10px;
+             		text-align: left;
+             	}
+             	table#t01 tr:nth-child(even) {
+                            background-color: #eee;
+                        }
+                table#t01 tr:nth-child(odd) {
+                           background-color:#fff;
+                        }
+                table#t01 th {
+                           background-color: black;
+                           color: white;
+                       }
+              </style>
+            <table id="t01">
+            	<thead>
+				 <tr>
+				    <th>Firstname</th>
+				    <th>Lastname</th>
+				    <th>Age</th>
+			    </tr>
+			    </thead>
+			    <tbody>
+			    <tr>
+				    <td>Jill</td>
+				    <td>Smith</td>
+				    <td>50</td>
+			    </tr>
+			    <tr>
+				    <td>Eve</td>
+				    <td>Jackson</td>
+				    <td>94</td>
+				</tr>
+				</tbody>
+				<tfoot>
+				<tr>
+				    <td>John</td>
+				    <td>Doe</td>
+				    <td>80</td>
+			    </tr>
+			    </tfoot>
+			</table>
+        </body>	
+    </head>
+</html>

@@ -1,0 +1,85 @@
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+figure {
+  display: block;
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+}
+img:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+        .topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: red;
+        }
+        ul{
+        &:extend(.topnav);
+
+
+        }
+
+        ul.topnav li {float: left;}
+
+        ul.topnav li  a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            &:hover:not(.active)
+            {background-color: #111;}
+
+        }
+
+     /*   ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+        ul.topnav li a.active {background-color: #4CAF50;}
+
+        ul.topnav li.right {float: right;} */
+
+        @media screen and (max-width: 600px){
+            ul.topnav li.right,
+            ul.topnav li {float: none;}
+        }
+
+
+        .img{
+            height: 43px;
+            width: 98px;
+        }
+
+.breadcrumb {
+	list-style: none;
+	overflow: hidden;
+	font: 18px Helvetica, Arial, Sans-Serif;
+}
+.breadcrumb li {
+	float: left;
+}
+.breadcrumb li a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 0 10px 65px;
+	background: brown;                   /* fallback color */
+	background: hsla(34,85%,35%,1);
+	position: relative;
+	display: block;
+	float: left;
+}

@@ -79,3 +79,26 @@ button[type="reset"]{
 button[type="reset"]:hover{
    background-color: #4df227;
 }
+
+#main-heading:hover{
+    -webkit-transition: all 5s ease-in-out;
+    -moz-transition: all 5s ease-in-out;
+    -o-transition: all 5s ease-in-out;
+    -ms-transition: all 5s ease-in-out;
+    transition: all 5s ease-in-out;
+}
+
+@keyframes upAndDown{
+    0%,100% {
+        opacity: 0;
+        top: 17%;
+        left: 28%;
+        font-size: 14px;
+    }
+    50% {
+        opacity: 1;
+        top: 50%;
+        left: 0;
+        font-size: 50px;
+    }
+}

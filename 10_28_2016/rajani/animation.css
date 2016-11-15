@@ -14,47 +14,66 @@
    -ms-transform: rotate(90deg);
    transform: rotate(90deg);*/
 
-    -webkit-transform: scale(4,4);
+    /*-webkit-transform: scale(4,4);
     -moz-transform: scale(4,4);
     -o-transform: scale(4,4);
     -ms-transform: scale(4,4);
-    transform: scale(4,4);
+    transform: scale(4,4);*/
 
-   /* -webkit-transform: skew(10deg,-40deg);
+    -webkit-transform: skew(10deg,-40deg);
     -moz-transform: skew(10deg,-40deg);
     -o-transform: skew(10deg,-40deg);
     -ms-transform: skew(10deg,-40deg);
-    transform: skew(10deg,-40deg);*/
+    transform: skew(10deg,-40deg);
+}
 
-    /*3D transform translate*/
+h1{
+      /*position:absolute;
+     -webkit-animation: scrollContent 20s infinite;
+     -moz-animation: scrollContent 20s infinite;
+     -o-animation: scrollContent 20s infinite;
+     -ms-animation: scrollContent 20s infinite;
+      animation: scrollContent 20s infinite;*/
 
-   /* -webkit-transform: translate3d(0,20px,100px);
-    -moz-transform: translate3d(0,20px,100px);
-    -o-transform: translate3d(0,20px,100px);
-    -ms-transform: translate3d(0,20px,100px);
-    transform: translate3d(0,20px,100px); */
+      -webkit-transform: scale(2,2);
+      -moz-transform: scale(2,2);
+      -o-transform: scale(2,2);
+      -ms-transform: scale(2,2);
+      transform: scale(2,2);
+}
 
-   /* -webkit-transform: rotate3d(0,1,1,90deg);
-    -moz-transform: rotate3d(0,1,1,90deg);
-    -o-transform: rotate3d(0,1,1,90deg);
-    -ms-transform: rotate3d(0,1,1,90deg);
-     transform: rotate3d(0,1,1,90deg); */
+#main-heading{
+     /*position:absolute;
+     -webkit-animation: scrollContent 20s infinite;
+     -moz-animation: scrollContent 20s infinite;
+     -o-animation: scrollContent 20s infinite;
+     -ms-animation: scrollContent 20s infinite;
+     animation: scrollContent 20s infinite;*/
 
+     -webkit-transform: upAndDown 2s infinite;
+     -moz-transform: upAndDown 2s infinite;
+     -o-transform: upAndDown 2s infinite;
+     -ms-transform: upAndDown 2s infinite;
+     transform: upAndDown 2s infinite;
 }
 
 @keyframes scrollContent{
-  0%{
-     left: 5%;
+  0%,100%{
+     left: 0%;
   }
-  100%{
-     right: 200%;
+
+  50%,{
+     left:50%;
   }
 }
 
 .scroll-content{
+    position:absolute;
    -webkit-animation: scrollContent 20s infinite;
    -moz-animation: scrollContent 20s infinite;
    -o-animation: scrollContent 20s infinite;
    -ms-animation: scrollContent 20s infinite;
    animation: scrollContent 20s infinite;
 }
+
+
